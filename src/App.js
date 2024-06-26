@@ -1,11 +1,13 @@
 import './App.css';
 import Testimonio from './componentes/Testimonio';
 
-function App() {
+function App() { //devuelve el JSX
   return (
     <div className="App">
-      <div className="contenedor-principal">
+      <header className="header-principal">
         <h1>Esto es lo que dicen nuestros alumnos sobre FreeCodeCamp</h1>
+      </header>
+      <div className="contenedor-principal">
         <Testimonio 
           nombre="Shawn Wang"
           pais="Singapur"
